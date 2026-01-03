@@ -1,3 +1,6 @@
+-- ts file was generated at discord.gg/25ms
+
+
 if game.CoreGui:FindFirstChild("PSX_LoadingScreen") then
     game.CoreGui:FindFirstChild("PSX_LoadingScreen"):Destroy()
 end
@@ -712,9 +715,6 @@ task.spawn(function()
     end)
     if not v192 then
         vu24.Text = "\226\154\160\239\184\143 Backend failed: " .. tostring(v193)
-        vu24.TextColor3 = Color3.fromRGB(255, 150, 0)
-    end
-end)
         vu24.TextColor3 = Color3.fromRGB(255, 150, 0)
     end
 end)
